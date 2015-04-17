@@ -1,7 +1,8 @@
 # CombatStats-Docs
 Documentation for CombatStats
+All documentation is written in Markdown and parsed with [Parsedown](http://parsedown.org).
 
-## To GitHub user
+## To GitHub user reading this
 This is a Bukkit plugin, this specific repo contains documentation for the plugin. I didn't know if I wanted to write out a massive Spigot page so I thought it would be better to put it on a proper site.
 
 ## Contributing
