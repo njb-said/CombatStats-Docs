@@ -22,7 +22,7 @@ function showFile($path) {
     } else {
         header("HTTP/1.0 404 Not Found");
         header("Content-type: text/plain");
-        echo "Input file not found: " . $path . ".md";
+        echo "Input file not found: " . $path;
         // TODO: a proper 404 page
     }
     die();
