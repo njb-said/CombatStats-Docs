@@ -1,5 +1,6 @@
-# <span id="intro">Combat Stats</span>
-CombatStats is a powerful stats plugin.
+<span id="intro">![/assets/logo1.png](/assets/logo1.png)</span>
+
+**CombatStats is a powerful stats plugin, capable of logging almost anything within a Minecraft server via its API.**
 
 ## Table of Contents
 - [Introduction](#intro)
