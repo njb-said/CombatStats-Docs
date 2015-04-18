@@ -15,14 +15,24 @@ I have put a lot of time and effort into the plugin.
 #### Disclaimer
 The contents of this repository may change at any time. Furthermore it could include technical or typographical errors, I take no responsibility for any losses, damages or other problems that may arise as a result of this documentation or improper configuration. However I will try to provide support where possible.
 
-#### Payment Disclaimer
-When purchasing the plugin via SpigotMC.org you are agreeing to the following:
+#### Documentation License
+The documentation in this repository is licensed under [GNU General Public License v2.0](https://github.com/njb-said/CombatStats-Docs/blob/master/LICENSE).
+
+#### Payment Terms
+When purchasing the CombatStats plugin you are agreeing to the following:
 - You will **not** decompile the plugin.
 - You will **not** use any source-code or assets related to the plugin without prior permission from [njb_said](http://www.spigotmc.org/members/njb_said.563/).
- - An exception to this is when using the API classes.
+ - See the addon rules section below for exceptions.
 - You will **not** share the plugin, source-code or related assets with any party that has not purchased the plugin.
 - You will **not** sell the plugin, source-code or related assets.
 - You will **only** use the plugin on your server.
 - Generally a refund will not be given, however I can look into your case.
 - You **acknowlegde** that your SpigotMC account may be terminated or suspended if you attempt any form of chargeback or payment dispute.
-- You **acknowlegde** all terms stated on the [spigot website](http://www.spigotmc.org/wiki/spigot-rules/).
+- You **acknowlegde** all terms stated on the [spigot website rules section](http://www.spigotmc.org/wiki/spigot-rules/).
+
+#### Addon Rules
+You are welcome to create an Addon using the API provided within CombatStats, however there are a couple of restrictions please respect them.
+- Addons must **not** contain any source-code for CombatStats (References to the API are fine)
+- Addons **must** be free to use and obtain.
+
+I would appreciate it massively if you left a backlink to the CombatStats spigot page when you create addons.
