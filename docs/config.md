@@ -106,7 +106,35 @@ To read about these please [click here](/storage).
         <td>What <a href="/storage">type of storage</a> should be used.</td>
         <td>true</td>
     </tr>
+    <tr id="storage.database-info.username">
+        <td><code>storage.database-info.username</code></td>
+        <td>Username for MySQL or Mongo database (optional when using mongo)</td>
+        <td>MySQL: root | Mongo: none</td>
+    </tr>
+    <tr id="storage.database-info.password">
+        <td><code>storage.database-info.password</code></td>
+        <td>Password for MySQL or Mongo database (optiona when using mongo)</td>
+        <td>MySQL: password123 | Mongo: none</td>
+    </tr>
+    <tr id="storage.database-info.database">
+        <td><code>storage.database-info.database</code></td>
+        <td>Database name for MySQL or Mongo</td>
+        <td>minecraft</td>
+    </tr>
+    <tr id="storage.database-info.hostname">
+        <td><code>storage.database-info.hostname</code></td>
+        <td>IP address or hostname for your database</td>
+        <td>localhost</td>
+    </tr>
+    <tr id="storage.database-info.port">
+        <td><code>storage.database-info.port</code></td>
+        <td>Port your database is running on</td>
+        <td>MySQL: 3306 | Mongo: 27017</td>
+    </tr>
 </table>
+If you use Mongo the username and password are optional, if you don't want to use either just put "none".
+
+The database-info section of the config is only generated if you are using <code>mysql</code> or <code>mongo</code> for your storage type/method.
 
 ### <span id="lang">Language config</span>
 **This feature has not been implemented yet.**
