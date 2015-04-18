@@ -35,4 +35,4 @@ You are welcome to create an Addon using the API provided within CombatStats, ho
 - Addons must **not** contain any source-code for CombatStats (References to the API are fine)
 - Addons **must** be free to use and obtain.
 
-I would appreciate it massively if you left a backlink to the CombatStats spigot page when you create addons.
+I would appreciate it massively if you left a backlink to the [CombatStats spigot page](http://www.spigotmc.org/resources/combatstats.6170/) when you create addons.
