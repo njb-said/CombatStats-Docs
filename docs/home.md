@@ -28,8 +28,8 @@ Out of the box this plugin can log many things about players that join your serv
 - Total play time
 
 Again, all of the stats listed above can be disabled or enabled at your own discretion using [the config](/config). If you have a suggestion please let me know and I will try to add it.
-You are not limited to me though on what you can do this with plugin, you can use the plugin's API to add your own stats (see [API docs](/api) for more info).
+You are not limited by me though on what you can do this with plugin, you can use the plugin's API to add your own stats (see [API docs](/api) for more info).
 
 <hr>
 ## <span id="permissions">Permissions</span>
-There are no permissions for the plugin in the current version. Every player that joins the server will be tracked by the plugin, however if you would like permissions support please vote in [this poll](http://poll.pw/475)
+There are no permissions in the current version. Every player that joins the server will be tracked by the plugin, however you can vote for permissions support in [this poll](http://poll.pw/475)
