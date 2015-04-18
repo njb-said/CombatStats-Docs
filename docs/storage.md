@@ -30,7 +30,19 @@ All statistics will be stored in the table/collection you pre-define in the [con
 
 An example document would be the following:
 ```json
-Coming Soon
+{
+    "uuid" : "a8889e3068b84ce8963f4ea259c3ebe3",
+    "playerKills" : 0,
+    "entityKills" : 0,
+    "deaths" : 0,
+    "projectiles" : 0,
+    "streaks" : 0,
+    "blocksBroken" : 0,
+    "blocksPlaced" : 0,
+    "itemsCrafted" : 0,
+    "firstJoin" : NumberLong(1429375603),
+    "playtime" : NumberLong(0)
+}
 ```
 
 <hr>
