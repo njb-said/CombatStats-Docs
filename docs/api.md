@@ -4,6 +4,7 @@ CombatStats includes a powerful API providing access to some of the plugins core
 ### Table of Contents
 1. CombatAPI Methods
  * [Accessing](#api-access)
+ * [getData](#api-getdata)
  * [Get](#api-get)
  * [Set](#api-set)
  * [Increment](#api-increment)
@@ -26,6 +27,13 @@ CombatStats.getInstance().getHandler()
 
 ## CombatAPI: forceFetch/forceSave
 The ```forceFetch``` and ```forceSave``` variables in the API methods determine if the value will be set/get in cache or directly interact with the storage method. If this value is not given, the default value is used as defined in the [config](/config#options.instant-update).
+
+## <span id="api-getdata">CombatAPI: getData
+You can get a HashMap of all statistic data about a player like so:
+```java
+getData(UUID uuid)
+```
+This will return a hashmap where the key is the name of the statistic and the value is an object.
 
 ## <span id="api-get">CombatAPI: Get</span>
 There a several methods to get different types of values from the storage, however they all fallback to this:
